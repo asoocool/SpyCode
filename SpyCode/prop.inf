@@ -1,0 +1,15 @@
+{
+  "general": {
+    "autoScale": false,
+    "docWidth": 640,
+    "scaleVal": 1,
+    "isPort": true,
+    "scaleValue": 100
+  },
+  "build": {
+    "autoInc": true,
+    "dynamicInc": true,
+    "bridgeName": "none",
+    "compress": false
+  }
+}
