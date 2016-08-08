@@ -33,8 +33,7 @@ Do not call Function in Constructor.
 	};
 	
 	this.navigator.registerPageEx(pageInfo);
-	
-	
+	this.navigator.registerPage('TestPageView.lay', 'TestPageView', 'MDIPage');
 
 	//# Go first page
 	//this.navigator.goPage('pageId'); or

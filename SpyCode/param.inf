@@ -1,5 +1,8 @@
 {
   "compCountMap": {
-    "AView": 1
+    "AButton": 11,
+    "AView": 6,
+    "AListView": 1,
+    "ATabView": 1
   }
 }

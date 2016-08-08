@@ -19,13 +19,7 @@ Do not call Function in Constructor.
 {
 	@super.onInit();
 
-	var thisObj = this;
-	
-	setTimeout(function()
-	{
-		thisObj.splitPage();
-	}, 0);
-	
+	//this.splitPage();
 };
 
 @function MDIPage:splitPage()
