@@ -41,11 +41,17 @@ Do not call Function in Constructor.
 	*/
 
 	//TODO:edit here
-	
+	/*
 	var page = new APage('main-page');
 	page.url = 'MyWindowView.lay';
 	
 	page.open(this);
+	*/
+	
+	
+	this.navigator.registerPage('MyWindowView.lay', 'MyWindowView');
+	
+	this.navigator.goPage('MyWindowView');
 	
 	
 
