@@ -21,7 +21,7 @@ Do not call Function in Constructor.
 	//this.navigator.registerPage('folderName/LayName1.lay', 'pageId'); or
 	//this.navigator.registerPage('MainPageView.lay');
 	
-	
+	/*
 	var pageInfo = 
 	{
 		pageClass: 'MDIPage',
@@ -38,8 +38,16 @@ Do not call Function in Constructor.
 	//# Go first page
 	//this.navigator.goPage('pageId'); or
 	this.navigator.goPage(0);
+	*/
 
 	//TODO:edit here
+	
+	var page = new APage('main-page');
+	page.url = 'MyWindowView.lay';
+	
+	page.open(this);
+	
+	
 
 };
 
