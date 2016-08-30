@@ -30,11 +30,6 @@ Do not call Function in Constructor.
 
 @function TestPageView:onButton1Click(comp, info)
 {
-
-	//TODO:edit here
-	
-	var wnd = AWindow.createWindow('MyWindowView.lay');
-	wnd.setWindowOption({isAutoCenter:true, isFocusLostClose:true, isModal: true});
-	wnd.open(this);
+	theApp.navigator.goPage('MyWindowView');
 
 };

@@ -25,6 +25,15 @@ Do not call Function in Constructor.
 {
 
 	//TODO:edit here
-	this.owner.close();
+	//this.owner.close();
+	
+	this.owner.navigator.goPage('MainPageView');
+
+};
+
+@function MyWindowView:onButton2Click(comp, info)
+{
+
+	theApp.navigator.goPrevPage();
 
 };

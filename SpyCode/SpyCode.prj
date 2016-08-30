@@ -420,12 +420,6 @@
         "children": [
           {
             "type": 5,
-            "name": "jquery.ui.touch-punch.min.js",
-            "relType": 1,
-            "path": "lib\\"
-          },
-          {
-            "type": 5,
             "name": "jquery-ui.js",
             "relType": 1,
             "path": "lib\\"

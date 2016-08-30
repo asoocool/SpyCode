@@ -49,9 +49,12 @@ Do not call Function in Constructor.
 	*/
 	
 	
+	this.navigator.registerPage('MainPageView.lay', 'MainPageView');
+	this.navigator.registerPage('TestPageView.lay', 'TestPageView');
 	this.navigator.registerPage('MyWindowView.lay', 'MyWindowView');
 	
-	this.navigator.goPage('MyWindowView');
+	
+	this.navigator.goPage('MainPageView');
 	
 	
 
