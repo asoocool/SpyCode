@@ -639,6 +639,18 @@
         "name": "MyWindowView.lay",
         "relType": 1,
         "path": ""
+      },
+      {
+        "type": 2,
+        "name": "SplitTestView.cls",
+        "relType": 1,
+        "path": ""
+      },
+      {
+        "type": 3,
+        "name": "SplitTestView.lay",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
