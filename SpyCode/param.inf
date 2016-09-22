@@ -2,7 +2,7 @@
   "compCountMap": {
     "AButton": 11,
     "AView": 7,
-    "ATabView": 1,
-    "AListView": 1
+    "AListView": 1,
+    "ATabView": 1
   }
 }
