@@ -48,7 +48,7 @@ Do not call Function in Constructor.
 	page.open(this);
 	*/
 	
-	
+	/*
 	this.navigator.registerPage('MainPageView.lay', 'MainPageView');
 	this.navigator.registerPage('TestPageView.lay', 'TestPageView');
 	this.navigator.registerPage('MyWindowView.lay', 'MyWindowView');
@@ -56,7 +56,10 @@ Do not call Function in Constructor.
 	
 	
 	this.navigator.goPage('SplitTest');
-	
+	*/
+
+	var wnd = AWindow.createWindow('SplitTestView.lay', 'SplitTest');
+	wnd.open(this, 0, 0, '100%', '100%');
 	
 
 };

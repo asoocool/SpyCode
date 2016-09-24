@@ -18,5 +18,13 @@ Do not call Function in Constructor.
 	@super.init(context, evtListener);
 
 	//TODO:edit here
+	var thisObj = this;
+	
+	setTimeout(function()
+	{
+		thisObj.getContainer().splitContainer(3, [200, -1, 200], false);
+		
+	}, 100);
+	
 
 };
