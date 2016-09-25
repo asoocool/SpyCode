@@ -58,9 +58,32 @@ Do not call Function in Constructor.
 	this.navigator.goPage('SplitTest');
 	*/
 
-	var wnd = AWindow.createWindow('SplitTestView.lay', 'SplitTest');
+/*
+	var wnd = AWindow.createWindow(null, 'SplitTest');
 	wnd.open(this, 0, 0, '100%', '100%');
 	
+	var thisObj = this;
+	
+	setTimeout(function()
+	{
+		wnd.splitContainer(3, [30, -1, 20], false);
+		//thisObj.getContainer().splitContainer(1, [-1], true);
+		
+	}, 100);
+*/
+
+
+	var page = new APage('SplitTest');
+	page.open(this);
+
+	var thisObj = this;
+	
+	setTimeout(function()
+	{
+		page.splitContainer(3, [30, -1, 20], false);
+		
+	}, 100);
+
 
 };
 
