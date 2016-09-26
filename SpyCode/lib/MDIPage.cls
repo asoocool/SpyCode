@@ -15,9 +15,9 @@ Do not call Function in Constructor.
 @extends APage;
 
 
-@function MDIPage:onInit()
+@function MDIPage:onReady()
 {
-	@super.onInit();
+	@super.onReady();
 
 	//this.splitPage();
 };
