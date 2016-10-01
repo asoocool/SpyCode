@@ -651,6 +651,12 @@
         "name": "SplitTestView.lay",
         "relType": 1,
         "path": ""
+      },
+      {
+        "type": 2,
+        "name": "MainPage.cls",
+        "relType": 1,
+        "path": ""
       }
     ]
   },

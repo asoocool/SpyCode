@@ -8,6 +8,8 @@ Do not call Function in Constructor.
 	@super();
 
 	//TODO:edit here
+	
+	this.mainPage = null;
 
 }
 @extends AApplication;
@@ -73,30 +75,9 @@ Do not call Function in Constructor.
 */
 
 
-	var page = new APage('SplitTest');
-	page.open(this);
+	this.mainPage = new MainPage('MainPage');
+	this.mainPage.open(this);
 	
-	page.onReady = function()
-	{
-		this.splitContainer(3, [200, -1, 200], false);
-		
-		this.loadView('SubView.lay', 0);
-		this.loadView('SubView2.lay', 2);
-		
-		/*
-		var center = this.getSplit(1);
-		center.splitContainer(3, [150, -1, 150], true);
-		
-		center.loadView('MyWindowView.lay', 0);
-		center.loadView('SplitTestView.lay', 1);
-		center.loadView('MyWindowView.lay', 2);
-		*/
-		
-		var center = this.getSplit(1);
-		center.splitContainer(1, [-1], true);
-		center.loadView('MyWindowView.lay', 0);
-		
-	};
 
 /*
 	var thisObj = this;
