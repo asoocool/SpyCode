@@ -37,7 +37,19 @@ Do not call Function in Constructor.
 	//TODO:edit here
 	
 	var center = theApp.mainPage.getSplit(1);
-	center.addSplit(this.btnWnd);
+	//center.appendSplit(this.btnWnd);
+	center.prependSplit(this.btnWnd);
+	
+
+};
+
+@function SubView2:onDock2BtnClick(comp, info)
+{
+
+	var center = theApp.mainPage.getSplit(1);
+	
+	center.removeFirstSplit();
+	//center.removeLastSplit();
 	
 
 };
