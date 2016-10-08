@@ -443,6 +443,13 @@
             "name": "MDIPage.cls",
             "relType": 1,
             "path": "lib\\"
+          },
+          {
+            "type": 5,
+            "name": "MDIManager.js",
+            "action": 5,
+            "relType": 4,
+            "path": ""
           }
         ]
       },
