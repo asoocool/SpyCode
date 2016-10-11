@@ -402,6 +402,12 @@
                 "name": "AApplication.js",
                 "relType": 2,
                 "path": "Component\\"
+              },
+              {
+                "type": 5,
+                "name": "ADocument.js",
+                "relType": 2,
+                "path": "Component\\"
               }
             ]
           }
@@ -664,6 +670,30 @@
         "name": "MainPage.cls",
         "relType": 1,
         "path": ""
+      },
+      {
+        "type": 1,
+        "name": "mdi",
+        "children": [
+          {
+            "type": 2,
+            "name": "MdiTestView.cls",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "MdiTestView.lay",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 2,
+            "name": "MdiTestDoc.cls",
+            "relType": 1,
+            "path": ""
+          }
+        ]
       }
     ]
   },

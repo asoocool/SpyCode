@@ -89,6 +89,18 @@ Do not call Function in Constructor.
 	}, 100);
 
 */
+
+	this.mdiManager = new MDIManager();
+	this.mdiManager.addDocTemplate(
+	{
+		contClass: 'AContainer',
+		viewClass: 'MdiTestView',
+		docClass: 'MdiTestDoc',
+		extNames: ['txt','js','cls'],
+	});
+
+
+
 };
 
 @function SpyCodeApp:openDocument(title)
