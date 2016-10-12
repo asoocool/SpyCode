@@ -89,7 +89,7 @@ Do not call Function in Constructor.
 	}, 100);
 
 */
-
+/*
 	this.mdiManager = new MDIManager();
 	this.mdiManager.addDocTemplate(
 	{
@@ -98,7 +98,7 @@ Do not call Function in Constructor.
 		docClass: 'MdiTestDoc',
 		extNames: ['txt','js','cls'],
 	});
-
+*/
 
 
 };
