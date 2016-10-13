@@ -15,7 +15,7 @@ Do not call Function in Constructor.
 @extends AApplication;
 
 
-@function SpyCodeApp:onReady()
+@function SpyCodeApp*onReady()
 {
 	@super.onReady();
 
@@ -103,7 +103,7 @@ Do not call Function in Constructor.
 
 };
 
-@function SpyCodeApp:openDocument(title)
+@function SpyCodeApp*openDocument(title)
 {
 
 };

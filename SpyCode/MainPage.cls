@@ -13,7 +13,7 @@ Do not call Function in Constructor.
 @extends APage;
 
 
-@function MainPage:onReady()
+@function MainPage*onReady()
 {
 	@super.onReady();
 
