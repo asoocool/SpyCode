@@ -101,7 +101,7 @@ Do not call Function in Constructor.
 */
 
 
-};
+}
 
 @function SpyCodeApp*openDocument(title)
 {
